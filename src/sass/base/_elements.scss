@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+}
+
+// @see: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// @see: https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/
+@media (prefers-reduced-motion: reduce), (update: slow) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+img,
+iframe,
+object,
+embed,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+object,
+embed,
+video {
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+sup,
+sub {
+  font-size: 50%;
+}
+
+// ==========================================================================
+// Project specifics
+// ==========================================================================
+
+body {
+  font-family: Nunito, sans-serif;
+  font-size: $global-font-size;
+}
+
+// ::selection {
+// }
+
+// ::-moz-selection {
+// }
+
+// input::placeholder {}
+// textarea::placeholder {}
+// input::-webkit-input-placeholder {}
+// textarea::-webkit-input-placeholder {}
+// input::-moz-placeholder {}
+// textarea::-moz-placeholder {}
+// input:-ms-input-placeholder {}
+// textarea:-ms-input-placeholder {}

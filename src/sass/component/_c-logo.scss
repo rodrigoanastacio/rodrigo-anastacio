@@ -1,0 +1,17 @@
+$layout-name: "c-logo";
+
+.#{$layout-name} {
+  width: rem(300);
+
+  &__link {
+    padding: rem(8) 0;
+    font-size: rem(30);
+    font-weight: 100;
+    color: inherit;
+    text-decoration: none;
+
+    & > span {
+      font-weight: bold;
+    }
+  }
+}

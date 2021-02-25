@@ -1,0 +1,18 @@
+$layout-name: "l-header";
+
+.#{$layout-name} {
+  display: flex;
+  background-color: var(--color-black-2);
+  color: var(--color-primary);
+  height: rem(80);
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: $global-max-width;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}

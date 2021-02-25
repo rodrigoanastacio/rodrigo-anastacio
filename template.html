@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starter Project</title>
-  <%= htmlWebpackPlugin.tags.headTags %>
-</head>
-<body>
-  <h1>Welcome</h1>
-  <small>Project started</small>
-  <%= htmlWebpackPlugin.tags.bodyTags %>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodrigo Anastacio | Front End Developer</title>
+    <%= htmlWebpackPlugin.tags.headTags %>
+  </head>
+  <body class="t-dark">
+    <header class="l-header">
+      <div class="l-header__content">
+        <div class="c-logo">
+          <a href="#" class="c-logo__link">Rodrigo <span>Anastacio</span></a>
+        </div>
+
+        <nav class="c-navbar">
+          <ul class="c-navbar-nav">
+            <li class="c-navbar__item">
+              <a href="#" class="c-navbar__link">Home</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <%= htmlWebpackPlugin.tags.bodyTags %>
+  </body>
 </html>

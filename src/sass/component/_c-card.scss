@@ -1,0 +1,25 @@
+.c-card {
+  background-color: var(--color-black-2);
+  background: linear-gradient(
+    to right,
+    var(--color-black-2) 0%,
+    rgba(32, 32, 36, 0.5) 25%,
+    rgba(32, 32, 36, 0.5) 50%,
+    var(--color-black-1) 100%
+  );
+  padding: rem(25) rem(50);
+  border: 1px solid rgba($color: #a8f80d, $alpha: 0);
+  border-left: 5px solid var(--color-secundary);
+  border-radius: rem(10);
+
+  &__headline {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primary);
+    font-size: rem(48);
+  }
+
+  &__sub-headline {
+    font-weight: 100;
+    color: var(--color-primary);
+  }
+}

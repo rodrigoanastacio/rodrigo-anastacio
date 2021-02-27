@@ -1,0 +1,11 @@
+.c-contact-list {
+  display: flex;
+  list-style: none;
+
+  &__link {
+    color: var(--color-primary);
+    display: block;
+    padding: rem(10);
+    margin-right: rem(15);
+  }
+}

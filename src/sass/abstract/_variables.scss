@@ -1,45 +1,46 @@
 // Colors
 $project-colors: (
-  "primary": "#fcfcfc",
-  "black-1": "#121214",
-  "black-2": "#202024",
+  'primary': '#fcfcfc',
+  'secundary': '#a8f80d',
+  'black-1': '#121214',
+  'black-2': '#202024',
 );
 
 // webfatorial
 // ==========================================================================
 
 $web-colors: (
-  "webfatorial-primary": #157bad,
-  "webfatorial-secondary": #06618c,
-  "webfatorial-success": #3cc368,
-  "webfatorial-warning": #f5a600,
-  "webfatorial-error": #ec5840,
-  "webfatorial-gray-1": #363636,
-  "webfatorial-gray-2": #4f4f4f,
-  "webfatorial-gray-3": #828282,
-  "webfatorial-gray-4": #bdbdbd,
-  "webfatorial-gray-5": #e0e0e0,
-  "webfatorial-white": #fcfcfc,
+  'webfatorial-primary': #157bad,
+  'webfatorial-secondary': #06618c,
+  'webfatorial-success': #3cc368,
+  'webfatorial-warning': #f5a600,
+  'webfatorial-error': #ec5840,
+  'webfatorial-gray-1': #363636,
+  'webfatorial-gray-2': #4f4f4f,
+  'webfatorial-gray-3': #828282,
+  'webfatorial-gray-4': #bdbdbd,
+  'webfatorial-gray-5': #e0e0e0,
+  'webfatorial-white': #fcfcfc,
 );
 
 // dpw
 // ==========================================================================
 
 $dpw-colors: (
-  "dpw-primary": #3da6c8,
-  "dpw-secondary": darken(#3da6c8, 12%),
+  'dpw-primary': #3da6c8,
+  'dpw-secondary': darken(#3da6c8, 12%),
 );
 
 // Social Media
 // ==========================================================================
 
 $social-media-colors: (
-  "facebook": #3b5998,
-  "twitter": #00aced,
-  "linkedin": #0077b5,
-  "youtube": #cd201f,
-  "instagram": #e4405f,
-  "github": #333,
+  'facebook': #3b5998,
+  'twitter': #00aced,
+  'linkedin': #0077b5,
+  'youtube': #cd201f,
+  'instagram': #e4405f,
+  'github': #333,
 );
 
 // ==========================================================================
@@ -77,10 +78,10 @@ $transition-function-elastic: cubic-bezier(0.175, 0.885, 0.41, 1.46);
 // ==========================================================================
 
 $z-indexes: (
-  "above": 500,
-  "modal": 400,
-  "overlay": 300,
-  "dropdown": 200,
-  "default": 1,
-  "below": -1,
+  'above': 500,
+  'modal': 400,
+  'overlay': 300,
+  'dropdown': 200,
+  'default': 1,
+  'below': -1,
 );

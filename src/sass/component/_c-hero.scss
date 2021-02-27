@@ -1,0 +1,26 @@
+.c-hero {
+  background-color: #78a5ba;
+  height: calc(100vh - 80px);
+  background: linear-gradient(
+    to right,
+    var(--color-black-1) 0%,
+    rgba(32, 32, 36, 0.5) 32%,
+    rgba(32, 32, 36, 0.5) 30%,
+    var(--color-black-2) 100%
+  );
+
+  &__box-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    > img {
+      padding: 0 rem(15);
+    }
+  }
+
+  &__box-text {
+    width: 100%;
+    padding: 0 rem(15);
+  }
+}

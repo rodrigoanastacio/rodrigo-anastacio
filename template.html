@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <title>Rodrigo Anastacio | Front End Developer</title>
     <%= htmlWebpackPlugin.tags.headTags %>
   </head>
+
   <body class="t-dark">
     <header class="l-header">
       <div class="l-header__content">
@@ -19,9 +24,62 @@
               <a href="#" class="c-navbar__link">Home</a>
             </li>
           </ul>
+          <div class="menu-btn"></div>
         </nav>
       </div>
     </header>
+
+    <section class="c-hero">
+      <div class="container">
+        <div class="c-hero__box-img">
+          <img
+            src="./images/hero-img-v3.png"
+            alt="Imagem Rodrigo Anastacio"
+            width="450"
+            height=""
+          />
+        </div>
+
+        <div class="c-hero__box-text">
+          <div class="c-card">
+            <h1 class="c-card__headline">Rodrigo Anastacio</h1>
+            <h2 class="c-card__sub-headline">Front End Developer</h2>
+            <ul class="c-contact-list">
+              <li class="c-contact-list__item">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rodrigoanastacio/"
+                  class="c-contact-list__link"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="c-contact-list__item">
+                <a
+                  target="_blank"
+                  href="https://github.com/rodrigoanastacio"
+                  class="c-contact-list__link"
+                  title="Github"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="c-contact-list__item">
+                <a
+                  target="_blank"
+                  href="https://www.behance.net/rdganastacio"
+                  class="c-contact-list__link"
+                  title="Behance"
+                >
+                  <i class="fab fa-behance"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <%= htmlWebpackPlugin.tags.bodyTags %>
   </body>
 </html>

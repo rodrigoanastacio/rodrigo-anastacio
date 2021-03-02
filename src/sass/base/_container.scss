@@ -6,4 +6,9 @@
   max-width: $global-max-width;
   padding: 0 15px;
   margin: 0 auto;
+
+  @include breakpoint(medium-only) {
+    flex-direction: column;
+  }
+
 }
